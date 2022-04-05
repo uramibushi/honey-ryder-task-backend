@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HoneyRyderTask.Domain\HoneyRyderTask.Domain.csproj" />
+    <ProjectReference Include="..\HoneyRyderTask.UseCase\HoneyRyderTask.UseCase.csproj" />
+  </ItemGroup>
 </Project>

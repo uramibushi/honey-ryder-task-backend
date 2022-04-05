@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HoneyRyderTask.UseCase\HoneyRyderTask.UseCase.csproj" />
+    <ProjectReference Include="..\HoneyRyderTask.Presentation\HoneyRyderTask.Presentation.csproj" />
+    <ProjectReference Include="..\HoneyRyderTask.Infrastructure.PostgreSQL\HoneyRyderTask.Infrastructure.PostgreSQL.csproj" />
+    <ProjectReference Include="..\HoneyRyderTask.Domain\HoneyRyderTask.Domain.csproj" />
+  </ItemGroup>
 </Project>
