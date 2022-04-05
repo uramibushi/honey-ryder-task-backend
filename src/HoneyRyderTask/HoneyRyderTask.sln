@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1700.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyRyderTask.Presentation", "HoneyRyderTask.Presentation\HoneyRyderTask.Presentation.csproj", "{59332AD6-2F4C-4BDE-8C88-2B16A95F2663}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyRyderTask.Domain", "HoneyRyderTask.Domain\HoneyRyderTask.Domain.csproj", "{AE30D853-43F4-4E58-BCCF-F7DD08DDFF43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{59332AD6-2F4C-4BDE-8C88-2B16A95F2663}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59332AD6-2F4C-4BDE-8C88-2B16A95F2663}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59332AD6-2F4C-4BDE-8C88-2B16A95F2663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE30D853-43F4-4E58-BCCF-F7DD08DDFF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE30D853-43F4-4E58-BCCF-F7DD08DDFF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE30D853-43F4-4E58-BCCF-F7DD08DDFF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE30D853-43F4-4E58-BCCF-F7DD08DDFF43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
