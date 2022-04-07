@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyRyderTask.UseCase", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyRyderTask.Infrastructure.PostgreSQL", "HoneyRyderTask.Infrastructure.PostgreSQL\HoneyRyderTask.Infrastructure.PostgreSQL.csproj", "{60799BB8-2DB0-470D-8684-59FD3F8C7385}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyRyderTaskTests", "HoneyRyderTaskTests\HoneyRyderTaskTests.csproj", "{E277578F-30D9-455A-8AEE-6C96C932D260}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyRyderTaskTests", "HoneyRyderTaskTests\HoneyRyderTaskTests.csproj", "{5D5E61CA-729A-4CCA-9A9E-8412C91E94A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{60799BB8-2DB0-470D-8684-59FD3F8C7385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60799BB8-2DB0-470D-8684-59FD3F8C7385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60799BB8-2DB0-470D-8684-59FD3F8C7385}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E277578F-30D9-455A-8AEE-6C96C932D260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E277578F-30D9-455A-8AEE-6C96C932D260}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E277578F-30D9-455A-8AEE-6C96C932D260}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E277578F-30D9-455A-8AEE-6C96C932D260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5E61CA-729A-4CCA-9A9E-8412C91E94A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5E61CA-729A-4CCA-9A9E-8412C91E94A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5E61CA-729A-4CCA-9A9E-8412C91E94A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5E61CA-729A-4CCA-9A9E-8412C91E94A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
