@@ -10,6 +10,7 @@
     <None Remove="Models\" />
     <None Remove="NUlid" />
     <None Remove="Models\Shared\" />
+    <None Remove="StyleCop.Analyzers" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -17,5 +18,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NUlid" Version="1.7.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 </Project>
