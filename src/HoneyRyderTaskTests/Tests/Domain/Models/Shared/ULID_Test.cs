@@ -1,4 +1,6 @@
-﻿using HoneyRyderTask.Domain.Models.Shared;
+﻿using System.Linq;
+using HoneyRyderTask.Domain.Models.Shared;
+using HoneyRyderTaskTests.Helpers.Extensions;
 using Xunit;
 
 namespace HoneyRyderTaskTests.Tests.Domain.Models.Shared
@@ -16,6 +18,17 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Shared
 
 			//assert
 			Assert.Equal(26, id.Value.Length);
+        }
+
+		[Fact(DisplayName = "[NewULID()] 毎回異なるIDが採番される（100回実行して確認）")]
+		public void NewULID_Test2()
+        {
+			//act
+			var ids = Enumerable.Range(1, 100).Select((i) => ULID.NewULID());
+
+			//assert
+			var isDuplicated = ids.IsDuplicated(id => id.Value);
+			Assert.False(isDuplicated);
         }
 
 		[Fact(DisplayName = "[IsULID(value)] 指定した値がULIDであればtrueを返す")]

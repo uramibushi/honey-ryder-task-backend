@@ -12,12 +12,15 @@ namespace HoneyRyderTask.Domain.Models.Shared
 			this.Value = value;
 		}
 
+		/// <summary>
+        /// ULID
+        /// </summary>
 		public string Value { get; }
 
 		/// <summary>
         /// 新しいULIDを採番します。
         /// </summary>
-        /// <returns></returns>
+        /// <returns>新しいULID</returns>
 		public static ULID NewULID()
         {
 			return new ULID(NUlid.Ulid.NewUlid().ToString());
@@ -27,7 +30,7 @@ namespace HoneyRyderTask.Domain.Models.Shared
         /// 指定した値がULIDであるかどうかを返します。
         /// ULIDであればtrue。それ以外はfalseを返します。
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="value">ULIDであるかを確認する対象の値を指定します。</param>
         /// <returns></returns>
 		public static bool IsULID(string value)
         {
