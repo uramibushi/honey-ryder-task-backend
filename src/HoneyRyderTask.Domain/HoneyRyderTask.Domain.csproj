@@ -8,8 +8,12 @@
 
   <ItemGroup>
     <None Remove="Models\" />
+    <None Remove="NUlid" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUlid" Version="1.7.0" />
   </ItemGroup>
 </Project>
