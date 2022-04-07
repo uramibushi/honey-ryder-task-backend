@@ -24,11 +24,17 @@
     <None Remove="Tests\" />
     <None Remove="Tests\Domain\" />
     <None Remove="Tests\Domain\Models\" />
+    <None Remove="Tests\Domain\Models\Shared\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tests\" />
     <Folder Include="Tests\Domain\" />
     <Folder Include="Tests\Domain\Models\" />
+    <Folder Include="Tests\Domain\Models\Shared\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HoneyRyderTask.Domain\HoneyRyderTask.Domain.csproj" />

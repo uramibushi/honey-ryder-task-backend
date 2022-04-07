@@ -9,9 +9,11 @@
   <ItemGroup>
     <None Remove="Models\" />
     <None Remove="NUlid" />
+    <None Remove="Models\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Models\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NUlid" Version="1.7.0" />
