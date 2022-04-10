@@ -23,7 +23,7 @@ namespace HoneyRyderTask.Domain.Models.Tasks
         /// <summary>
         /// 指定された値でタスクIDを生成します。
         /// </summary>
-        /// <param name="value">タスクIDを</param>
+        /// <param name="value">指定値</param>
         /// <returns>タスクID</returns>
         public static TaskId ValueOf(string value)
         {
