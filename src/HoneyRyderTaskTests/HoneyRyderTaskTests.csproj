@@ -37,6 +37,7 @@
     <None Remove="Helpers\" />
     <None Remove="Helpers\Extensions\" />
     <None Remove="StyleCop.Analyzers" />
+    <None Remove="Tests\Domain\Models\Tasks\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tests\" />
@@ -45,6 +46,7 @@
     <Folder Include="Tests\Domain\Models\Shared\" />
     <Folder Include="Helpers\" />
     <Folder Include="Helpers\Extensions\" />
+    <Folder Include="Tests\Domain\Models\Tasks\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HoneyRyderTask.Domain\HoneyRyderTask.Domain.csproj" />
