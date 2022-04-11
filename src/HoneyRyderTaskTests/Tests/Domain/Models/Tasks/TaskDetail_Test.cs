@@ -33,7 +33,7 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
 
             // assert
             var ex = Assert.Throws<Exception>(target);
-            Assert.Equal($"タスク詳細は30文字以下である必要があります", ex.Message);
+            Assert.Equal($"タスク詳細は300文字以下である必要があります", ex.Message);
         }
     }
 }
