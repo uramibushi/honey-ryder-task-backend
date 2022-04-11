@@ -17,11 +17,15 @@
     <None Remove="Models\Shared\" />
     <None Remove="StyleCop.Analyzers" />
     <None Remove="Models\Tasks\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Models\Shared\" />
     <Folder Include="Models\Tasks\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NUlid" Version="1.7.0" />
