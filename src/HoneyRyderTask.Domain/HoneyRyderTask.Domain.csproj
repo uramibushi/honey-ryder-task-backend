@@ -19,6 +19,7 @@
     <None Remove="Models\Tasks\" />
     <None Remove="Helpers\" />
     <None Remove="Helpers\Extensions\" />
+    <None Remove="Models\Users\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -26,6 +27,7 @@
     <Folder Include="Models\Tasks\" />
     <Folder Include="Helpers\" />
     <Folder Include="Helpers\Extensions\" />
+    <Folder Include="Models\Users\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NUlid" Version="1.7.0" />

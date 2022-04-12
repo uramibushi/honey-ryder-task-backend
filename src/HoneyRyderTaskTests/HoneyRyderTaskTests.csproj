@@ -40,6 +40,7 @@
     <None Remove="Tests\Domain\Models\Tasks\" />
     <None Remove="Tests\Domain\Helpers\" />
     <None Remove="Tests\Domain\Helpers\Extensions\" />
+    <None Remove="Tests\Domain\Models\Users\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tests\" />
@@ -51,6 +52,7 @@
     <Folder Include="Tests\Domain\Models\Tasks\" />
     <Folder Include="Tests\Domain\Helpers\" />
     <Folder Include="Tests\Domain\Helpers\Extensions\" />
+    <Folder Include="Tests\Domain\Models\Users\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HoneyRyderTask.Domain\HoneyRyderTask.Domain.csproj" />
