@@ -88,6 +88,23 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             Assert.Null(task.Achievement);
         }
 
+        [Fact(DisplayName = "[CreateNewTask()] 「タスク詳細」「タスク期限」は省略可能")]
+        public void CreateNewTask_Test6()
+        {
+            // arrange
+            var title = TaskTitle.ValueOf("タスクタイトル");
+            TaskDetail? detail = null;
+            TaskDueDate? dueDate = null;
+
+            // act
+            var task = Task.CreateNewTask(title, detail, dueDate);
+
+            // assert
+            Assert.Equal(title, task.Title);
+            Assert.Null(task.Detail);
+            Assert.Null(task.DueDate);
+        }
+
         [Fact(DisplayName = "[Reconstruct()] 指定した値でタスクを再構築できる")]
         public void Reconstruct_Test1()
         {

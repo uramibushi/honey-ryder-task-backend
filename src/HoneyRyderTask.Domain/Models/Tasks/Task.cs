@@ -78,8 +78,8 @@ namespace HoneyRyderTask.Domain.Models.Tasks
         /// </returns>
         public static Task CreateNewTask(
             TaskTitle title,
-            TaskDetail detail,
-            TaskDueDate dueDate)
+            TaskDetail? detail,
+            TaskDueDate? dueDate)
         {
             return new Task(
                 id: TaskId.NewId(),
