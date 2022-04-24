@@ -44,5 +44,19 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             // assert
             Assert.Equal(26, id.Value.Length);
         }
+
+        [Fact(DisplayName = "等価性を持っている")]
+        public void Equivalence_Test()
+        {
+            // arrange
+            var value1 = TaskId.ValueOf("12345678901234567890123456");
+            var value2 = TaskId.ValueOf("12345678901234567890123456");
+
+            // act
+            var actual = value1 == value2;
+
+            // assert
+            Assert.True(actual);
+        }
     }
 }

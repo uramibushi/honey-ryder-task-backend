@@ -3,7 +3,7 @@
     /// <summary>
     /// タスク実績期間
     /// </summary>
-    public class TaskAchievementPeriod
+    public record TaskAchievementPeriod
     {
         private TaskAchievementPeriod(DateTime startDate, DateTime? endDate)
         {

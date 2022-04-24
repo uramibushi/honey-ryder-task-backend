@@ -35,5 +35,19 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             Assert.NotEqual(value, taskDueDate.Value);
             Assert.Equal(value.Date, taskDueDate.Value);
         }
+
+        [Fact(DisplayName = "等価性を持っている")]
+        public void Equivalence_Test()
+        {
+            // arrange
+            var value1 = TaskDueDate.ValueOf(new DateTime(2022, 04, 01));
+            var value2 = TaskDueDate.ValueOf(new DateTime(2022, 04, 01));
+
+            // act
+            var actual = value1 == value2;
+
+            // assert
+            Assert.True(actual);
+        }
     }
 }

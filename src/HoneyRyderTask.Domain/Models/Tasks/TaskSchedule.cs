@@ -3,7 +3,7 @@
     /// <summary>
     /// タスク予定
     /// </summary>
-    public class TaskSchedule
+    public record TaskSchedule
     {
         private TaskSchedule(DateTime startDate, DateTime endDate, decimal? time)
         {

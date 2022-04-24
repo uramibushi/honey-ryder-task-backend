@@ -36,5 +36,6 @@ namespace HoneyRyderTask.Domain.Models.Tasks
         {
             if (value.Length > MaxLength) throw new Exception($"タスクタイトルは{MaxLength}文字以下である必要があります");
         }
+
     }
 }

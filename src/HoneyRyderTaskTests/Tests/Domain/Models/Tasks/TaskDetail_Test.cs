@@ -35,5 +35,19 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             var ex = Assert.Throws<Exception>(target);
             Assert.Equal($"タスク詳細は300文字以下である必要があります", ex.Message);
         }
+
+        [Fact(DisplayName = "等価性を持っている")]
+        public void Equivalence_Test()
+        {
+            // arrange
+            var value1 = TaskDetail.ValueOf("12345");
+            var value2 = TaskDetail.ValueOf("12345");
+
+            // act
+            var actual = value1 == value2;
+
+            // assert
+            Assert.True(actual);
+        }
     }
 }

@@ -5,7 +5,7 @@ namespace HoneyRyderTask.Domain.Models.Tasks
     /// <summary>
     /// タスク実績時間
     /// </summary>
-    public class TaskAchievementTime
+    public record TaskAchievementTime
     {
         private TaskAchievementTime(decimal value)
         {
