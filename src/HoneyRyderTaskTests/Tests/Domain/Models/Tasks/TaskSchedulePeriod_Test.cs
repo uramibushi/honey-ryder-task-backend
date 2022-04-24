@@ -5,9 +5,9 @@ using Xunit;
 namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
 {
     /// <summary>
-    /// PlanPeriod - test
+    /// TaskSchedulePeriod - test
     /// </summary>
-    public class PlanPeriod_Test
+    public class TaskSchedulePeriod_Test
     {
         [Fact(DisplayName = "[ValueOf(startDate, endDate)] 指定した値で予定期間を生成できる")]
         public void ValueOf_Test1()
@@ -17,7 +17,7 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             var endDate = new DateTime(2022, 3, 31);
 
             // act
-            var planPeriod = PlanPeriod.ValueOf(startDate, endDate);
+            var planPeriod = TaskSchedulePeriod.ValueOf(startDate, endDate);
 
             // assert
             Assert.Equal(startDate, planPeriod.StartDate);
@@ -32,7 +32,7 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             var endDate = new DateTime(2022, 3, 31, 14, 15, 16);
 
             // act
-            var planPeriod = PlanPeriod.ValueOf(startDate, endDate);
+            var planPeriod = TaskSchedulePeriod.ValueOf(startDate, endDate);
 
             // asserts
             Assert.NotEqual(startDate, planPeriod.StartDate);
@@ -49,7 +49,7 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             var endDate = new DateTime(2022, 3, 31);
 
             // act
-            var target = () => PlanPeriod.ValueOf(startDate, endDate);
+            var target = () => TaskSchedulePeriod.ValueOf(startDate, endDate);
 
             // asserts
             var ex = Assert.Throws<Exception>(target);
@@ -64,7 +64,7 @@ namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
             var endDate = new DateTime(2022, 4, 1);
 
             // act
-            var planPeriod = PlanPeriod.ValueOf(startDate, endDate);
+            var planPeriod = TaskSchedulePeriod.ValueOf(startDate, endDate);
 
             // asserts
             Assert.Equal(startDate, planPeriod.StartDate);
