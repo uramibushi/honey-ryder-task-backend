@@ -42,6 +42,11 @@
     <None Remove="Tests\Domain\Helpers\" />
     <None Remove="Tests\Domain\Helpers\Extensions\" />
     <None Remove="Tests\Domain\Models\Users\" />
+    <None Remove="Tests\UseCase\" />
+    <None Remove="Tests\UseCase\Services\" />
+    <None Remove="Tests\UseCase\Services\Tasks\" />
+    <None Remove="Tests\UseCase\Services\Tasks\CreateNewTask\" />
+    <None Remove="Moq" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tests\" />
@@ -54,6 +59,10 @@
     <Folder Include="Tests\Domain\Helpers\" />
     <Folder Include="Tests\Domain\Helpers\Extensions\" />
     <Folder Include="Tests\Domain\Models\Users\" />
+    <Folder Include="Tests\UseCase\" />
+    <Folder Include="Tests\UseCase\Services\" />
+    <Folder Include="Tests\UseCase\Services\Tasks\" />
+    <Folder Include="Tests\UseCase\Services\Tasks\CreateNewTask\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HoneyRyderTask.Domain\HoneyRyderTask.Domain.csproj" />
