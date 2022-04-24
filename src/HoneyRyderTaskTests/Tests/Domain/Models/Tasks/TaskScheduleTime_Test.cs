@@ -1,5 +1,4 @@
-﻿using System;
-using HoneyRyderTask.Domain.Models.Tasks;
+﻿using HoneyRyderTask.Domain.Models.Tasks;
 using Xunit;
 
 namespace HoneyRyderTaskTests.Tests.Domain.Models.Tasks
